@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on timcarr.net</title>
-    <link>https://timcarr.net/tags/</link>
+    <link>https://www.timcarr.net/tags/</link>
     <description>Recent content in Tags on timcarr.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 23:38:58 -0600</lastBuildDate>
     
-	<atom:link href="https://timcarr.net/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.timcarr.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CAPV</title>
-      <link>https://timcarr.net/tags/capv/</link>
+      <link>https://www.timcarr.net/tags/capv/</link>
       <pubDate>Sun, 26 Jan 2020 23:38:58 -0600</pubDate>
       
-      <guid>https://timcarr.net/tags/capv/</guid>
+      <guid>https://www.timcarr.net/tags/capv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cluster-API</title>
-      <link>https://timcarr.net/tags/cluster-api/</link>
+      <link>https://www.timcarr.net/tags/cluster-api/</link>
       <pubDate>Sun, 26 Jan 2020 23:38:58 -0600</pubDate>
       
-      <guid>https://timcarr.net/tags/cluster-api/</guid>
+      <guid>https://www.timcarr.net/tags/cluster-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>https://timcarr.net/tags/kubernetes/</link>
+      <link>https://www.timcarr.net/tags/kubernetes/</link>
       <pubDate>Sun, 26 Jan 2020 23:38:58 -0600</pubDate>
       
-      <guid>https://timcarr.net/tags/kubernetes/</guid>
+      <guid>https://www.timcarr.net/tags/kubernetes/</guid>
       <description></description>
     </item>
     

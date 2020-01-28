@@ -27,6 +27,17 @@ A NOTE: This guide is for v1alpha2 clusters. Currently work is being done in the
 	
 	<link rel="shortcut icon" href="/favicon.ico">
 		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-156906429-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -113,9 +124,12 @@ stream {
 }
 </code></pre>
 
-<p>To enable use of this load balancer configuration edits are needed to the controlplane.yaml as created by following the <a href="https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/blob/master/docs/getting_started.md#managing-workload-clusters-using-the-management-cluster">instructions here</a> Edit the <code>KubeadmConfig</code> of the controlplane.yaml:
-1. Add apiServerCertSANS to the clusterConfiguration spec
-2. Add a controlPlaneEndpoint to the clusterConfiguration spec</p>
+<p>To enable use of this load balancer configuration edits are needed to the controlplane.yaml as created by following the <a href="https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/blob/master/docs/getting_started.md#managing-workload-clusters-using-the-management-cluster">instructions here</a> Edit the <code>KubeadmConfig</code> of the controlplane.yaml:</p>
+
+<ol>
+<li>Add apiServerCertSANS to the clusterConfiguration spec</li>
+<li>Add a controlPlaneEndpoint to the clusterConfiguration spec</li>
+</ol>
 
 <p>Both should be configured to leverage the IP and port of the load balancer configured to support the control-plane. An example of this full configuration from my lab is below:</p>
 
